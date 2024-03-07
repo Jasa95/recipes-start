@@ -21,7 +21,7 @@ export default function NavHeader() {
         </li>
         <li>
           {/* <a href="/add">Add</a> */}
-          {auth.isLoggedIn() && (
+          {auth.isLoggedInAs(["ADMIN"]) && (
             <li>
               <Link to="/add">Add</Link>
             </li>
