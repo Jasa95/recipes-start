@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Categories } from "./recipes/Categories";
 import Recipe from "./recipes/Recipe";
-import Recipes from "./recipes/RecipeList";
+// import Recipes from "./recipes/RecipeList";
 import RecipeForm from "./recipes/RecipeForm";
 import Login from "./security/Login";
 import Logout from "./security/Logout";
@@ -10,10 +10,10 @@ import Home from "./Home";
 import "./App.css";
 import RecipesLayout from "./recipes/RecipesLayout";
 import RequireAuth from "./security/RequireAuth";
-import { useAuth } from "./security/AuthProvider";
+// import { useAuth } from "./security/AuthProvider";
 
 export default function App() {
-  const auth = useAuth();
+  // const auth = useAuth();
   return (
     <Layout>
       <Routes>
