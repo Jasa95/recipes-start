@@ -118,7 +118,7 @@ export default function RecipeForm() {
           <input type="text" id="source" name="source" required />
         </div>
       </form>
-      <button onClick={handleSubmit} className="recipe-form-btn">
+      <button type="submit" onClick={handleSubmit} className="recipe-form-btn">
         Submit
       </button>
       <button
